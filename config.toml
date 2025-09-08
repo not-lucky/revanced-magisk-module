@@ -8,6 +8,7 @@ parallel-jobs = 3
 [Instagram]
 apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
 arch = "arm64-v8a"
+dpi = "213-640dpi"
 
 [Boost]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/ruben-mayayo/boost-for-reddit/"
@@ -15,22 +16,24 @@ patcher-args = "-e 'Spoof client' -Oclient-id=RL6pLb3zycWlaznV5wJO2w"
 
 [Twitter]
 apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
+dpi = "120-640dpi"
 
 [GoogleRecorder]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/google-recorder/"
+dpi = "120-640dpi"
 arch = "arm64-v8a"
 
-[com.adobe.lrmobile]
+[AdobeLRmobile]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/adobe/lightroom/"
+arch = "arm64-v8a"
 
 [Spotify]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-podcasts"
+uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 patcher-args = "-e 'Change lyrics provider' -OlyricsProviderHost=lyrics.natanchiodi.fr "
 
 
 [GooglePhotos]
-arch = "both"
-version = "auto"
+arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 
 
@@ -40,8 +43,7 @@ app-name = "YT Music"
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
-build-mode = "both"
-arch = "both"
+arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 
 [YouTube-Extended]
@@ -49,6 +51,5 @@ app-name = "YouTube"
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
-build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
