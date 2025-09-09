@@ -59,7 +59,8 @@ parallel-jobs = 3
 # apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
 
-
 [Spotify]
-uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-podcasts/"
+patcher-args = "-e 'Change lyrics provider' -OlyricsProviderHost=lyrics.natanchiodi.fr "
+arch = "both"
+version = "9.0.78.1093"
