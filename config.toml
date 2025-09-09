@@ -8,7 +8,7 @@ parallel-jobs = 3
 [Instagram]
 apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
 arch = "both"
-dpi = "213-640dpi"
+dpi = "120-640dpi"
 
 
 [Boost]
@@ -22,21 +22,20 @@ dpi = "120-640dpi"
 
 [GoogleRecorder]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/google-recorder/"
-arch = "arm64-v8a"
+arch = "both"
 dpi = "120-640dpi"
 
 [lightroom]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/adobe/lightroom/"
-app-name = "Lightroom"
-arch = "arm64-v8a + x86_64"
+arch = "both"
 dpi = "120-640dpi"
 
 
 [Spotify]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-podcasts/"
 patcher-args = "-e 'Change lyrics provider' -OlyricsProviderHost=lyrics.natanchiodi.fr "
-arch = "arm64-v8a"
-dpi = "480-640dpi"
+arch = "both"
+dpi = "640dpi"
 
 [GooglePhotos]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
