@@ -5,56 +5,61 @@ parallel-jobs = 3
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 # you can use rvmm-config-gen to generate a config
-[Instagram]
-apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
-arch = "both"
-apkmirror-dpi = "120-640dpi"
+# [Instagram]
+# apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
+# arch = "both"
+# apkmirror-dpi = "120-640dpi"
 
 
-[Boost]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/ruben-mayayo/boost-for-reddit/"
-patcher-args = "-e 'Spoof client' -Oclient-id=RL6pLb3zycWlaznV5wJO2w"
+# [Boost]
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/ruben-mayayo/boost-for-reddit/"
+# patcher-args = "-e 'Spoof client' -Oclient-id=RL6pLb3zycWlaznV5wJO2w"
 
-[Twitter]
-apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
-arch = "arm64-v8a"
-apkmirror-dpi = "120-640dpi"
+# [Twitter]
+# apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
+# arch = "arm64-v8a"
+# apkmirror-dpi = "120-640dpi"
 
-[GoogleRecorder]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/google-recorder/"
-arch = "both"
-apkmirror-dpi = "120-640dpi"
+# [GoogleRecorder]
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/google-recorder/"
+# arch = "both"
+# apkmirror-dpi = "120-640dpi"
 
-[lightroom]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/adobe/lightroom/"
-arch = "both"
-apkmirror-dpi = "120-640dpi"
+# [lightroom]
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/adobe/lightroom/"
+# arch = "both"
+# apkmirror-dpi = "120-640dpi"
+
+
+# [Spotify]
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-podcasts/"
+# patcher-args = "-e 'Change lyrics provider' -OlyricsProviderHost=lyrics.natanchiodi.fr "
+# arch = "both"
+# apkmirror-dpi = "640dpi"
+
+# [GooglePhotos]
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
+# arch = "both"
+
+
+# # https://github.com/j-hc/revanced-magisk-module/issues/554
+# [Music-Extended]
+# app-name = "YT Music"
+# patches-source = "inotia00/revanced-patches"
+# cli-source = "inotia00/revanced-cli"
+# rv-brand = "ReVanced Extended"
+# arch = "both"
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+
+# [YouTube-Extended]
+# app-name = "YouTube"
+# patches-source = "inotia00/revanced-patches"
+# cli-source = "inotia00/revanced-cli"
+# rv-brand = "ReVanced Extended"
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+
 
 
 [Spotify]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-podcasts/"
-patcher-args = "-e 'Change lyrics provider' -OlyricsProviderHost=lyrics.natanchiodi.fr "
-arch = "both"
-apkmirror-dpi = "640dpi"
-
-[GooglePhotos]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
-arch = "both"
-
-
-# https://github.com/j-hc/revanced-magisk-module/issues/554
-[Music-Extended]
-app-name = "YT Music"
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-arch = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-
-[YouTube-Extended]
-app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-
+uptodown-dlurl = "https://spotify.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
