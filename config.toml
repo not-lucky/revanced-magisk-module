@@ -1,19 +1,15 @@
 enable-magisk-update = false # set this to false if you do not want to receive updates for the module in magisk app
-parallel-jobs = 1
+parallel-jobs = 3
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 # you can use rvmm-config-gen to generate a config
-[Instagram_arm64]
+[Instagram]
 apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
-arch = "arm64-v8a"
+arch = "both"
 dpi = "213-640dpi"
 
-[Instagram_arm]
-apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
-arch = "armeabi-v7a"
-dpi = "120-640dpi"
 
 [Boost]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/ruben-mayayo/boost-for-reddit/"
