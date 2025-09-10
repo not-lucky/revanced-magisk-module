@@ -1,5 +1,5 @@
 enable-magisk-update = false # set this to false if you do not want to receive updates for the module in magisk app
-parallel-jobs = 3
+parallel-jobs = 2
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
@@ -62,5 +62,5 @@ parallel-jobs = 3
 [Spotify]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-podcasts/"
 patcher-args = "-e 'Change lyrics provider' -OlyricsProviderHost=lyrics.natanchiodi.fr "
-arch = "both"
+arch = "universal"
 version = "9.0.78.1093"
