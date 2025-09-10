@@ -62,5 +62,5 @@ parallel-jobs = 2
 [Spotify]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-podcasts/"
 patcher-args = "-e 'Change lyrics provider' -OlyricsProviderHost=lyrics.natanchiodi.fr "
-arch = "universal"
-version = "9.0.78.1093"
+arch = "arm64-v8a"
+apkmirror-dpi = "640dpi"
