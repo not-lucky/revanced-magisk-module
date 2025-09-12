@@ -7,7 +7,6 @@ parallel-jobs = 2
 # you can use rvmm-config-gen to generate a config
 [Instagram]
 apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
-arch = "both"
 apkmirror-dpi = "120-640dpi"
 
 
@@ -29,7 +28,7 @@ apkmirror-dpi = "120-640dpi"
 
 [GoogleRecorder]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/google-recorder/"
-arch = "both"
+arch = "arm64-v8a"
 apkmirror-dpi = "120-640dpi"
 
 # [lightroom]
@@ -48,7 +47,6 @@ app-name = "YT Music"
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
-arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 
 [YouTube-Extended]
